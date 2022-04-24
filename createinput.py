@@ -9,7 +9,7 @@ response = client.create_input(
         },
     ],
     InputSecurityGroups=[
-        '4097518',
+        'xxxxxxx',
     ],
     Name='test111',
     RoleArn='arn:aws:iam::xxxxxxxxxxxx:user/xxxxx',
