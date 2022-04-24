@@ -12,7 +12,7 @@ response = client.create_input(
         '4097518',
     ],
     Name='test111',
-    RoleArn='arn:aws:iam::814424992012:user/admin',
+    RoleArn='arn:aws:iam::xxxxxxxxxxxx:user/xxxxx',
 
     Type='RTP_PUSH',
 )
