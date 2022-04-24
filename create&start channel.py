@@ -12,7 +12,7 @@ response = client.create_channel(
             'MediaPackageSettings': [],
             'Settings': [
                 {
-                    'Url': 's3ssl://livedemo2020/stream1/main'
+                    'Url': 's3ssl://path'
                 },
             ]
         },
@@ -129,7 +129,7 @@ response = client.create_channel(
     },
     LogLevel='DISABLED',
     Name='test111',
-    RoleArn='arn:aws:iam::814424992012:role/MediaLiveAccessRole',
+    RoleArn='arn:aws:iam::xxxxxxxxxxxx:role/MediaLiveAccessRole',
     Tags={}
 )
 
